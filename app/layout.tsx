@@ -1,18 +1,13 @@
-import Footer from '../components/Footer';
+import RootLayout from '../components/RootLayout';
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html>
       <head>
         <title>Title from Root Layout</title>
       </head>
       <body>
-        {children}
-        <Footer />
+        <RootLayout>{children}</RootLayout>
       </body>
     </html>
   );
