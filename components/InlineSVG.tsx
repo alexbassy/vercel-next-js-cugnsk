@@ -9,7 +9,7 @@ const SvgComponent = (props) => {
         {...props}
       >
         {/* Change the title below and see how it affects the page tab title */}
-        <title>☠️ svg title</title>
+        <title>☠️ svg title!</title>
         <path
           d="M261.92.03h68.63V12.7h-27.23v66.64h-13.61V12.7h-27.8V.03Zm-112.87 0V12.7h-55v20.38h44.23v12.66H94.04v20.93h55.01v12.67H80.43V.03h68.62Zm34.27.04h-17.81l63.8 79.3h17.87l-31.9-39.62L247.12.13 229.3.15l-22.96 28.52L183.32.07Zm18.28 56.64-8.92-11.09-27.22 33.81h17.86l18.28-22.72Z"
           fill="#000"

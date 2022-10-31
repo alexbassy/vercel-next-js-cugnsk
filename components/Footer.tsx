@@ -1,8 +1,8 @@
 import InlineSVG from './InlineSVG';
 
-export default function Footer({ title }: { title?: string }) {
+export default function Footer() {
   return (
-    <footer title={title}>
+    <footer>
       <InlineSVG />
     </footer>
   );
